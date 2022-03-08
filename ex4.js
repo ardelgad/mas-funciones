@@ -4,6 +4,15 @@
 
 function arrayMayor(elementos1, elementos2) {
 
+    if(elementos1.length>elementos2.length){
+        return 1
+    }
+    else if (elementos1.length<elementos2.length){
+        return 2
+    }
+    else {
+        return 0
+    }
 }
 
 console.log(arrayMayor([1, 2], [4, 5])); // 0

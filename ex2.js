@@ -1,6 +1,6 @@
 // Esta función debería devolver el cuadrado de un número, pero no lo hace. Corrige el error
 
-function squaed(b) {
+function squaed(a) {
     return a * a
 }
 
